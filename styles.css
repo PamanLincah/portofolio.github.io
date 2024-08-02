@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e7e7e7;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 60px;
+}
+
+.card {
+    text-align: justify;
+}
+
+.project ul {
+    padding-left: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row; /* Atur item secara horizontal */
+    justify-content: center; /* Pusatkan item secara horizontal */
+    gap: 30px; /* Jarak antar item */
+}
+
+.contact-info p {
+    margin: 0; /* Hapus margin default paragraf */
+}
