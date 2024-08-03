@@ -28,13 +28,3 @@ body {
     height: 150px;
     margin-bottom: 20px;
 }
-.contact-info {
-    display: flex;
-    flex-direction: row; /* Atur item secara horizontal */
-    justify-content: center; /* Pusatkan item secara horizontal */
-    gap: 30px; /* Jarak antar item */
-}
-
-.contact-info p {
-    margin: 0; /* Hapus margin default paragraf */
-}
